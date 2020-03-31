@@ -1,4 +1,4 @@
-## Githup Pages (Jekyll)
+## Overview
 Github Pages 는...
 
 Jekyll 은... 언어... 템플릿 엔진... Markdown...
@@ -9,6 +9,10 @@ Jekyll 은... 언어... 템플릿 엔진... Markdown...
 cd <repo>
 touch docs/_posts/YYYY-MM-DD-new-post.md  # edit file
 ```
+
+## Configure Jekyll
+> **TODO**
+> _config.yaml, index.html, minimal-mistakes (applied theme)
 
 ## References
 ### Github Pages
