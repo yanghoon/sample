@@ -3,13 +3,14 @@ Github Pages 는...
 Jekyll 은... 언어... 템플릿 엔진... Markdown...
 
 ## Posts
-### Add New Post
+#### Add New Post
 ```bash
 cd <repo>
 touch docs/_posts/YYYY-MM-DD-new-post.md  # edit file
 ```
 
-## Configure Jekyll
+## Configure
+#### Jekyll
 > **TODO**
 > _config.yaml, index.html, minimal-mistakes (applied theme)
 
