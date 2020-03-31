@@ -273,7 +273,8 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: wide
+      layout: single
+      classes: wide
       author_profile: false # true
       read_time: true
       comments: # true
