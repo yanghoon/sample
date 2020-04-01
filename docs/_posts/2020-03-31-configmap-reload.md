@@ -1,3 +1,6 @@
+---
+title: ConfigMap Reload
+---
 ## Purpose
 ConfigMap or Secret가 변경 될 경우, 이를 인지하여 Deployment의 Pod가 자동으로 재기동 되도록 한다.    
    
