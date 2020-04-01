@@ -1,7 +1,7 @@
 ---
 title: ConfigMap Reload (Stakater Reloader)
 ---
-Console Boot 프로젝트는 오픈소스를 활용하여, `ConfigMap` and/or `Secret` 변경을 감지하고 자동으로 Deployment 를 재기동 한다.
+Console Boot 프로젝트는 오픈소스를 활용하여, `ConfigMap` and/or `Secret` 변경을 감지하고 자동으로 `Deployment` 를 재기동 한다.
 
 ## Stakater Reloader
 [Stakater Reloader](https://github.com/stakater/Reloader) 는 ...
