@@ -1,5 +1,5 @@
 
-Console Boot 프로젝트는 **Stakater Reloader** 오픈소스를 활용하여, `ConfigMap` and/or `Secret` 변경을 감지하고 Deployment 를 재기동 한다.
+Console Boot 프로젝트는 오픈소스를 활용하여, `ConfigMap` and/or `Secret` 변경을 감지하고 자동으로 Deployment 를 재기동 한다.
 
 ## Stakater Reloader
 [Stakater Reloader](https://github.com/stakater/Reloader) 는 ...
@@ -9,6 +9,7 @@ Console Boot 프로젝트는 **Stakater Reloader** 오픈소스를 활용하여,
 $ helm install stakater/reloader --namespace kube-system
 ```
 위와 같이 기본 설치하는 경우, 모든 `Namespace` 의 `ConfigMap`, `Secret` 을 감지한다.
+
 특정 `Namespace` 에만 적용하는 경우, 아래 옵션 추가하여 설치한다.
 ```
 --set reloader.watchGlobally=false --namespace my-namespace
@@ -29,7 +30,7 @@ metadata:
   namespace: console
 ```
 
-추가적으로 Stakater Reloader 가 지원하는 annotations 과 대상 리소스는 아래와 같다.
+추가적으로 Stakater Reloader 가 지원하는 `annotations` 과 대상 리소스는 아래와 같다.
 * `DeploymentConfig`
 * `Deployment`
 * `Daemonset`
